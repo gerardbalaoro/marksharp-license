@@ -1,0 +1,36 @@
+{
+  "name": "@gerardbalaoro/marksharp-license",
+  "description": "A script to manage license for the MarkSharp VSCode extension.",
+  "author": {
+    "name": "Gerard Balaoro",
+    "email": "apps@gerardbalaoro.dev"
+  },
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "bin": "index.ts",
+  "scripts": {
+    "start": "bun index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "quokka": {
+    "bun": {
+      "usageMode": "alwaysUse"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "arrowParens": "always"
+  }
+}
